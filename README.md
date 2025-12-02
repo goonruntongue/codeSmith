@@ -72,7 +72,7 @@ $(".editor").codeSmith({
 });
 ```
 
-You can add as many keywords as you like to the autocomplete option.
+You can add as many keywords as you like to the autoComplete option.
 
 ------------------------------------------------------------------------
 
