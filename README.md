@@ -39,8 +39,8 @@ demos, prototypes, and lightweight code editors.
 <br>
 if you use CDN
 
-```{=html}
-<script src="https://cdn.jsdelivr.net/gh/goonruntongue/codeSmith/dist/jquery.codesmith.min.js"></script>
+```html
+<script src="https://cdn.jsdelivr.net/gh/goonruntongue/codeSmith@v1.0.0/dist/jquery.codesmith.min.js"></script>
 ```
 
 
@@ -50,7 +50,6 @@ if you use CDN
 
 ```{=html}
 <textarea class="editor" data-code="css"></textarea>
-```
 ```{=html}
 <script>
   $(".editor").codeSmith();
