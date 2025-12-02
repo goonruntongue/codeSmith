@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>codeSmith</title>
+</head>
+
+<body>
+    <textarea id="editor" style="width: 600px; height: 300px; font-family: monospace;" data-code="html"></textarea>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="./jquery.codesmith.js"></script>
+    <script>
+        $("#editor").codeSmith({
+            lang: "css", // or "js" / "html"
+            autoComplete: {
+                "pos": "position:",
+                "rel": "relative;",
+                "abs": "absolute;",
+                "top": "top:",
+                "bot": "bottom:",
+                "lef": "left:",
+                "rig": "right:",
+                "!imp": "!important",
+                ":nth": ":nth-of-type()",
+            }
+        });
+    </script>
+</body>
+
+</html>
