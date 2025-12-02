@@ -54,21 +54,23 @@ demos, prototypes, and lightweight code editors.
 
 ## ⚙️ Options
 
-\$(".editor").codeSmith({ 
-    &nbsp;&nbsp;&nbsp;&nbsp;lang: "css", 
-    &nbsp;&nbsp;&nbsp;&nbsp;indentUnit: " ",
-    &nbsp;&nbsp;&nbsp;&nbsp;autoComplete:{
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;".sli": ".slider",
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"pos": "position:",
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"rel": "relative;",
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"abs":"absolute;",
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"top": "top:",
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"bot": "bottom:", 
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"lef": "left:",
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"rig":"right:",
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"0": "0;", 
-    &nbsp;&nbsp;&nbsp;&nbsp;} 
+```
+$(".editor").codeSmith({ 
+    lang: "css",
+    indentUnit: " ",
+    autoComplete:{
+      ".sli": ".slider",
+      "pos": "position:",
+      "rel": "relative;",
+      "abs":"absolute;",
+      "top": "top:",
+      "bot": "bottom:", 
+      "lef": "left:",
+      "rig":"right:",
+      "0": "0;", 
+    } 
 });
+```
 
 You can add as many keywords as you like to the autocomplete option.
 
