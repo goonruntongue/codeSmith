@@ -40,7 +40,7 @@ demos, prototypes, and lightweight code editors.
 if you use CDN
 
 ```{=html}
-<script src="https://cdn.jsdelivr.net/gh/goonruntongue/codeSmith/dist/jquery.codesmith.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/goonruntongue/codeSmith/dist/jquery.codesmith.min.js"></script>
 ```
 
 
