@@ -50,8 +50,7 @@ if you use CDN
 
 ```{=html}
 <textarea class="editor" data-code="css"></textarea>
-```
-
+<br>
 <script>
   $(".editor").codeSmith();
 </script>
