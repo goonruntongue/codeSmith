@@ -1,0 +1,32 @@
+{
+  "name": "@goonruntongue/codesmith",
+  "version": "1.0.1",
+  "description": "A lightweight jQuery code editor helper for textareas.",
+  "main": "dist/jquery.codesmith.js",
+  "browser": "dist/jquery.codesmith.js",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "jquery",
+    "plugin",
+    "code-editor",
+    "textarea",
+    "editor"
+  ],
+  "author": "Katsuyori Murakami",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goonruntongue/codeSmith.git"
+  },
+  "bugs": {
+    "url": "https://github.com/goonruntongue/codeSmith/issues"
+  },
+  "homepage": "https://github.com/goonruntongue/codeSmith#readme",
+  "peerDependencies": {
+    "jquery": ">=3.0.0"
+  }
+}

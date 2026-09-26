@@ -26,22 +26,22 @@ demos, prototypes, and lightweight code editors.
 
 ## 📦 Installation
 
-### 1. Load jQuery
+### npm で使う
 
-```{=html}
-<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+```bash
+npm install @goonruntongue/codesmith jquery
 ```
-### 2. Load codeSmith
 
-```{=html}
-<script src="jquery.codesmith.js"></script>
-```
-<br>
-if you use CDN
+ビルドツールを使う場合は、プロジェクト内で jQuery を読み込んだ後に、パッケージの配布ファイルを読み込みます。
+
+### CDN で使う
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/goonruntongue/codeSmith@v1.0.0/dist/jquery.codesmith.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@goonruntongue/codesmith@1.0.1/dist/jquery.codesmith.min.js"></script>
 ```
+
+UNPKG: <code>https://unpkg.com/@goonruntongue/codesmith@1.0.1/dist/jquery.codesmith.min.js</code>
 
 
 ------------------------------------------------------------------------
